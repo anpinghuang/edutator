@@ -1,6 +1,6 @@
 # EduTator
 
-Problem: What is the problem you are addressing, why is it significant?
+## Problem: What is the problem you are addressing, why is it significant?
 The problem that we are addressing through our program is the lack of  a proper system for students to access the education and assistance they deserve. Through our experience in high school, we realized that not every student receives the education they need in order to succeed. We know how difficult it is to locate credible tutors quickly. We want to change this so that those who come after us don’t need to struggle with the same hardships we’ve gone through, so that we can lessen their stress from courses by providing tools that they should already have. 
 
 Solution: What is the idea of your project, how original is the solution? 

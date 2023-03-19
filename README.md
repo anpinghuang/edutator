@@ -3,7 +3,7 @@
 **Problem: What is the problem you are addressing, why is it significant?**
 The problem that we are addressing through our program is the lack of  a proper system for students to access the education and assistance they deserve. Through our experience in high school, we realized that not every student receives the education they need in order to succeed. We know how difficult it is to locate credible tutors quickly. We want to change this so that those who come after us don’t need to struggle with the same hardships we’ve gone through, so that we can lessen their stress from courses by providing tools that they should already have. 
 
-**Solution: What is the idea of your project, how original is the solution? **
+**Solution: What is the idea of your project, how original is the solution?**
 The idea is to become the biggest fully-scalable solution to pair up students with tutors around the world. Our project aims to make tutors more accessible to students, making the whole process faster, simpler, and efficient. It allows students to learn skills directly from the tutor, making it more efficient than pre-recorded online courses.
 
 Regarding originality, we can’t think of a service that does what we do. Yes, CHS provides tutoring in the library but the hours and tutors are extremely limited. Our service has everything in one spot, messaging, scheduling, and a variety of tutors. Not only this but students can choose to schedule OR use a tutor from moment to moment. Saying if a student is in need of a tutor, they can find one within minutes who’ll be able to assist them.

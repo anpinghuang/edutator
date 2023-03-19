@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message My Tutors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="flex-div"> 
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="/"><img src="tutors/logo.png" class="logo"></a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png">
+            </div>
+            <img src="images/voice-search.png" class="mic-iocn">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/Jack.png" class="user-icon">
+        </div>
+    </nav>
+    
+    <div class="sidebar">
+        <div class="subscribed-list">
+            <h3>MY TUTORS</h3>
+            <a href=""><img src="images/Jack.png"><p>Jack Nicholas</p></a>
+            <a href=""><img src="images/simon.png"><p>Simon Baker</p></a>
+            <a href=""><img src="images/tom.png"><p>Tom Hardy</p></a>
+            <a href=""><img src="images/megan.png"><p>Megan Ryan</p></a>
+            <a href=""><img src="images/cameron.png"><p>Cameron Cameron</p></a>
+        </div>
+    </div>
+
+    <!-- message starts here-->
+
+    <div class="content">
+        <div class="full-chat-block">
+            <!-- Message Container -->
+            <div class="outer-container">
+                <div class="chat-container">
+                    <!-- Messages -->
+                    <div id="chatbox">
+                        <h5 id="chat-timestamp"></h5>
+                        <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                    </div>
+
+                    <!-- User input box -->
+                    <div class="chat-bar-input-block">
+                        <div id="userInput">
+                            <input id="textInput" class="input-box" type="text" name="msg"
+                                placeholder="Tap 'Enter' to send a message">
+                            <p></p>
+                        </div>
+
+                        <div class="chat-bar-icons">
+                            <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartButton()"></i>
+                            <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendButton()"></i>
+                        </div>
+                    </div>
+
+                    <div id="chat-bar-bottom">
+                        <p></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- message ends here-->
+    
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</html>
